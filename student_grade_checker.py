@@ -1,8 +1,10 @@
-#Program 2:
+# Program 2
 
 score = float(input("Enter the student's score: "))
 
-if score >= 90:
+if score >= 95:
+    grade = "A+"
+elif score >= 90:
     grade = "A"
 elif score >= 80:
     grade = "B"
@@ -16,5 +18,3 @@ else:
     grade = "F"
 
 print("Grade:", grade)
-
-
